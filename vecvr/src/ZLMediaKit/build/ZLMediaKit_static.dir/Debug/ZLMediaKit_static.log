@@ -1,0 +1,198 @@
+﻿  AACEncoder.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Codec\AACEncoder.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  config.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common\config.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  Device.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Device\Device.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\device\Device.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\device\Device.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/time.h': No such file or directory
+  PlayerProxy.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Device\PlayerProxy.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  base64.cpp
+  H264Parser.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\H264Parser.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\h264\H264Parser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\h264\macros.h(90): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/logger.h': No such file or directory
+  h264_bit_reader.cpp
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\h264\macros.h(90): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/logger.h': No such file or directory
+  h264_parser.cpp
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\h264\macros.h(90): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/logger.h': No such file or directory
+  h264_poc.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\h264_poc.cpp(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/logger.h': No such file or directory
+  ranges.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\ranges.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  HttpClient.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpClient.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp/Rtsp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  HttpClientImp.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpClientImp.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http/HttpClientImp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp/Rtsp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  HttpDownloader.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpDownloader.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\http\HttpDownloader.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\http\HttpClientImp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp/Rtsp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  HttpRequester.cpp
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\http\HttpClientImp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp/Rtsp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  HttpSession.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpSession.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpSession.cpp(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'dirent.h': No such file or directory
+  strCoding.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\strCoding.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\http\strCoding.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\strCoding.cpp(36): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764): note: 'sprintf' 선언을 참조하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\strCoding.cpp(42): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764): note: 'sprintf' 선언을 참조하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\strCoding.cpp(49): error C2039: 'UrlUTF8Decode': 'ZL::Http::strCoding'의 멤버가 아닙니다.
+  f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\http\strCoding.h(18): note: 'ZL::Http::strCoding' 선언을 참조하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\strCoding.cpp(57): error C3861: 'StrToBin': 식별자를 찾을 수 없습니다.
+  HLSMaker.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\HLSMaker.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\mediafile\HLSMaker.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\mediafile\TSMaker.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\mediafile\TSMaker.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/File.h': No such file or directory
+  MediaReader.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\MediaReader.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\mediafile\MediaReader.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Device/Device.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Device/Device.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/time.h': No such file or directory
+  MediaRecorder.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\MediaRecorder.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\mediafile\MediaRecorder.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player/PlayerBase.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\Player.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player/PlayerBase.h(14): fatal error C1083: 포함 파일을 열 수 없습니다. 'Network/Socket.h': No such file or directory
+  Mp4Maker.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\Mp4Maker.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  TSMaker.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\TSMaker.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\mediafile\TSMaker.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\mediafile\TSMaker.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/File.h': No such file or directory
+  crc32.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\crc32.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  MediaPlayer.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player\MediaPlayer.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\MediaPlayer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\Player.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\PlayerBase.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\PlayerBase.h(14): fatal error C1083: 포함 파일을 열 수 없습니다. 'Network/Socket.h': No such file or directory
+  Player.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player\Player.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\Player.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player\Player.cpp(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/logger.h': No such file or directory
+  PlayerBase.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player\PlayerBase.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\PlayerBase.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\Player.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\player\PlayerBase.h(14): fatal error C1083: 포함 파일을 열 수 없습니다. 'Network/Socket.h': No such file or directory
+  RtmpMediaSource.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpMediaSource.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpMediaSource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpMediaSource.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtmpParser.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpParser.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\amf.h(80): warning C4244: 'return': 'const double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\Rtmp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\Rtmp.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtmpPlayer.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpPlayer.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpPlayer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpPlayer.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtmpPlayerImp.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpPlayerImp.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpPlayerImp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  RtmpProtocol.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpProtocol.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpProtocol.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpProtocol.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtmpPusher.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpPusher.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpPusher.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpProtocol.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpProtocol.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtmpSession.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpSession.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpSession.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtmp\RtmpSession.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtmpToRtspMediaSource.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpToRtspMediaSource.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  amf.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\amf.cpp(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'arpa/inet.h': No such file or directory
+  utils.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\utils.cpp(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'arpa/inet.h': No such file or directory
+  RtpMakerAAC.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\RTP\RtpMakerAAC.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\RTP\RtpMakerAAC.cpp(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtpMakerH264.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\RTP\RtpMakerH264.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\RTP\RtpMakerH264.cpp(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'netinet/in.h': No such file or directory
+  RtpBroadCaster.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtpBroadCaster.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtpBroadCaster.cpp(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'arpa/inet.h': No such file or directory
+  RtpParser.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtpParser.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtsp\RtpParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp/Rtsp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  Rtsp.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\Rtsp.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtsp\Rtsp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  RtspMediaSource.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspMediaSource.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtsp\RtspMediaSource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtsp\Rtsp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  RtspPlayer.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspPlayer.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspPlayer.cpp(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'arpa/inet.h': No such file or directory
+  RtspPlayerImp.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspPlayerImp.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\rtsp\RtspPlayerImp.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  RtspSession.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspSession.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspSession.cpp(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'arpa/inet.h': No such file or directory
+  RtspToRtmpMediaSource.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspToRtmpMediaSource.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspToRtmpMediaSource.cpp(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory
+  UDPServer.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\UDPServer.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\UDPServer.cpp(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'arpa/inet.h': No such file or directory
+  CMD.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Shell\CMD.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\shell\CMD.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zlmediakit\src\shell\CMD.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'getopt.h': No such file or directory
+  ShellSession.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Shell\ShellSession.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common/config.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'Util/mini.h': No such file or directory
+  코드를 생성하고 있습니다...

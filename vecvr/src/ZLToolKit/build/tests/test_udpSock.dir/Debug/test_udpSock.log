@@ -1,0 +1,2 @@
+﻿  test_udpSock.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\tests\test_udpSock.cpp(9): fatal error C1083: 포함 파일을 열 수 없습니다. 'arpa/inet.h': No such file or directory

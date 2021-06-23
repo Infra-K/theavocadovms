@@ -1,0 +1,488 @@
+<!DOCTYPE QPH>
+<QPH language="ko_KR">
+<phrase>
+    <source>Camera Add</source>
+    <target>카메라 추가</target>
+</phrase>
+<phrase>
+    <source>Client</source>
+    <target>고객</target>
+</phrase>
+<phrase>
+    <source>Disk</source>
+    <target>디스크</target>
+</phrase>
+<phrase>
+    <source>Emap</source>
+    <target>전자지도</target>
+</phrase>
+<phrase>
+    <source>Stor Add</source>
+    <target>저장소 추가</target>
+</phrase>
+<phrase>
+    <source>View</source>
+    <target>보기</target>
+</phrase>
+<phrase>
+    <source>Configurations</source>
+    <target>구성</target>
+</phrase>
+<phrase>
+    <source>off</source>
+    <target>끄다</target>
+</phrase>
+<phrase>
+    <source>on</source>
+    <target>켜다</target>
+</phrase>
+<phrase>
+    <source>Camera Name:</source>
+    <target>카메라 이름:</target>
+</phrase>
+<phrase>
+    <source>FILE</source>
+    <target>파일</target>
+</phrase>
+<phrase>
+    <source>File Name:</source>
+    <target>파일이름:</target>
+</phrase>
+<phrase>
+    <source>IP Address:</source>
+    <target>IP 주소:</target>
+</phrase>
+<phrase>
+    <source>MJPEG</source>
+    <target>MJPEG</target>
+</phrase>
+<phrase>
+    <source>ONVIF</source>
+    <target>ONVIF</target>
+</phrase>
+<phrase>
+    <source>Port:</source>
+    <target>포트:</target>
+</phrase>
+<phrase>
+    <source>RTSP</source>
+    <target>RTSP</target>
+</phrase>
+<phrase>
+    <source>RTSP Address:</source>
+    <target>RTSP 주소:</target>
+</phrase>
+<phrase>
+    <source>Task</source>
+    <target>작업</target>
+</phrase>
+<phrase>
+    <source>Update task list</source>
+    <target>작업 목록 업데이트</target>
+</phrase>
+<phrase>
+    <source>Description:</source>
+    <target>설명:</target>
+</phrase>
+<phrase>
+    <source>Free</source>
+    <target>무료</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>이름</target>
+</phrase>
+<phrase>
+    <source>Recording</source>
+    <target>녹음</target>
+</phrase>
+<phrase>
+    <source>Total</source>
+    <target>합계</target>
+</phrase>
+<phrase>
+    <source>Apply</source>
+    <target>적용</target>
+</phrase>
+<phrase>
+    <source>Auto</source>
+    <target>자동</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>취소</target>
+</phrase>
+<phrase>
+    <source>Channel</source>
+    <target>채널</target>
+</phrase>
+<phrase>
+    <source>Host ID</source>
+    <target>호스트 ID</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>유형</target>
+</phrase>
+<phrase>
+    <source>Welcome OpenCVR</source>
+    <target>OpenCVR 환영합니다.</target>
+</phrase>
+<phrase>
+    <source>Welcome</source>
+    <target>환영합니다.</target>
+</phrase>
+<phrase>
+    <source>Username</source>
+    <target>사용자 이름</target>
+</phrase>
+<phrase>
+    <source>Password</source>
+    <target>비밀번호</target>
+</phrase>
+<phrase>
+    <source>Login</source>
+    <target>로그인</target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target>종료</target>
+</phrase>
+<phrase>
+    <source>Dashboard</source>
+    <target>대시보드</target>
+</phrase>
+<phrase>
+    <source>Console</source>
+    <target>콘솔</target>
+</phrase>
+<phrase>
+    <source>OpenCVR Exit ...</source>
+    <target>OpenCVR 종료...</target>
+</phrase>
+<phrase>
+    <source>About OpenCVR</source>
+    <target>OpenCVR 에 대하여</target>
+</phrase>
+<phrase>
+    <source>Username or Password not correct ...</source>
+    <target>잘못된 사용자 이름 또는 비밀번호 ...</target>
+</phrase>
+<phrase>
+    <source>Enable </source>
+    <target>가능</target>
+</phrase>
+<phrase>
+    <source>Server Based Motion</source>
+    <target>모션 감지 서버</target>
+</phrase>
+<phrase>
+    <source>Change Password Failed ...</source>
+    <target>비밀번호 변경 실패 ...</target>
+</phrase>
+<phrase>
+    <source>Current Password</source>
+    <target>현재 비밀번호</target>
+</phrase>
+<phrase>
+    <source>New Password</source>
+    <target>새 비밀번호</target>
+</phrase>
+<phrase>
+    <source>Repeat Password</source>
+    <target>비밀번호 반복</target>
+</phrase>
+<phrase>
+    <source>Info</source>
+    <target>정보</target>
+</phrase>
+<phrase>
+    <source>Version</source>
+    <target>버전</target>
+</phrase>
+<phrase>
+    <source>Auto login</source>
+    <target>자동 로그인</target>
+</phrase>
+<phrase>
+    <source>Password not correct ...</source>
+    <target>잘못된 비밀번호...</target>
+</phrase>
+<phrase>
+    <source>Logout</source>
+    <target>로그아웃</target>
+</phrase>
+<phrase>
+    <source>Search</source>
+    <target>검색</target>
+</phrase>
+<phrase>
+    <source>Filter</source>
+    <target>필터</target>
+</phrase>
+<phrase>
+    <source>Playback %1</source>
+    <target>% 1 다시재생</target>
+</phrase>
+<phrase>
+    <source>Event Search</source>
+    <target>이벤트 검색</target>
+</phrase>
+<phrase>
+    <source>1mins</source>
+    <target>1 분</target>
+</phrase>
+<phrase>
+    <source>3mins</source>
+    <target>3 분</target>
+</phrase>
+<phrase>
+    <source>40s</source>
+    <target>40 초</target>
+</phrase>
+<phrase>
+    <source>5mins</source>
+    <target>5 분</target>
+</phrase>
+<phrase>
+    <source>New</source>
+    <target>새 것</target>
+</phrase>
+<phrase>
+    <source>Save</source>
+    <target>저장</target>
+</phrase>
+<phrase>
+    <source>View Configuration</source>
+    <target>구성 보기</target>
+</phrase>
+<phrase>
+    <source>View Name</source>
+    <target>이름 보기</target>
+</phrase>
+<phrase>
+    <source>Language</source>
+    <target>언어</target>
+</phrase>
+<phrase>
+    <source>License</source>
+    <target>저작권</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>삭제</target>
+</phrase>
+<phrase>
+    <source> List</source>
+    <target>목록</target>
+</phrase>
+<phrase>
+    <source>Map Name</source>
+    <target>지도 이름</target>
+</phrase>
+<phrase>
+    <source>IP Address</source>
+    <target>IP 주소</target>
+</phrase>
+<phrase>
+    <source>Port</source>
+    <target>포트</target>
+</phrase>
+<phrase>
+    <source>Status</source>
+    <target>상태</target>
+</phrase>
+<phrase>
+    <source>Stor List</source>
+    <target>저장 목록</target>
+</phrase>
+<phrase>
+    <source>Layout</source>
+    <target>레이아웃</target>
+</phrase>
+<phrase>
+    <source>View List</source>
+    <target>목록 보기</target>
+</phrase>
+<phrase>
+    <source>Add</source>
+    <target>추가</target>
+</phrase>
+<phrase>
+    <source>Camera List</source>
+    <target>카메라 목록</target>
+</phrase>
+<phrase>
+    <source>Camera Search</source>
+    <target>카메라 검색</target>
+</phrase>
+<phrase>
+    <source>Model</source>
+    <target>모델</target>
+</phrase>
+<phrase>
+    <source>Search is In Processing ...</source>
+    <target>검색 중 ...</target>
+</phrase>
+<phrase>
+    <source>Search is not Started ...</source>
+    <target>검색이 시작되지 않았습니다.</target>
+</phrase>
+<phrase>
+    <source>Select</source>
+    <target>선택</target>
+</phrase>
+<phrase>
+    <source>Start</source>
+    <target>시작</target>
+</phrase>
+<phrase>
+    <source>Stop</source>
+    <target>정지</target>
+</phrase>
+<phrase>
+    <source>  CPU: %1%  RAM: %2%</source>
+    <target>프로세서 : % 1 % 메모리 : % 2 %</target>
+</phrase>
+<phrase>
+    <source>Records</source>
+    <target>비디오 촬영</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>종료</target>
+</phrase>
+<phrase>
+    <source>Load eMap</source>
+    <target>전자지도 불러오기</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>도움</target>
+</phrase>
+<phrase>
+    <source>Float</source>
+    <target>실수</target>
+</phrase>
+<phrase>
+    <source>Tabbed</source>
+    <target>탭 선택</target>
+</phrase>
+<phrase>
+    <source>DISPLAY 1</source>
+    <target>디스플레이 1</target>
+</phrase>
+<phrase>
+    <source>DISPLAY 2</source>
+    <target>디스플레이 2</target>
+</phrase>
+<phrase>
+    <source>DISPLAY 3</source>
+    <target>디스플레이 3</target>
+</phrase>
+<phrase>
+    <source>DISPLAY 4</source>
+    <target>디스플레이 4</target>
+</phrase>
+<phrase>
+    <source>Select Map</source>
+    <target>지도 선택</target>
+</phrase>
+<phrase>
+    <source>Drag and drop camera to here ...
+</source>
+    <target>여기로 카메라 드래그 앤 드롭 ...</target>
+</phrase>
+<phrase>
+    <source>Video Files(*.jpg *.jpeg *.png)</source>
+    <target>비디오 파일(*.jpg *.jpeg *.png)</target>
+</phrase>
+<phrase>
+    <source>Play</source>
+    <target>재생</target>
+</phrase>
+<phrase>
+    <source>Playback</source>
+    <target>다시재생</target>
+</phrase>
+<phrase>
+    <source>Export</source>
+    <target>내보내다</target>
+</phrase>
+<phrase>
+    <source>Export task is in the dashboard, you can view the process</source>
+    <target>당신은 대시보드에 있는 직무를 내보내기하여 진행 상황을 볼 수 있습니다.</target>
+</phrase>
+<phrase>
+    <source>Start time</source>
+    <target>시작 시간</target>
+</phrase>
+<phrase>
+    <source>End time</source>
+    <target>종료 시간</target>
+</phrase>
+<phrase>
+    <source>PTZ Panel</source>
+    <target>PTZ 패널</target>
+</phrase>
+<phrase>
+    <source>Control</source>
+    <target>제어</target>
+</phrase>
+<phrase>
+    <source>Setting</source>
+    <target>설정</target>
+</phrase>
+<phrase>
+    <source>Sched</source>
+    <target>계획</target>
+</phrase>
+<phrase>
+    <source>Event</source>
+    <target>이벤트</target>
+</phrase>
+<phrase>
+    <source>All Day</source>
+    <target>하루 종일</target>
+</phrase>
+<phrase>
+    <source>Work Day</source>
+    <target>일하는 날</target>
+</phrase>
+<phrase>
+    <source>Clear</source>
+    <target>정리</target>
+</phrase>
+<phrase>
+    <source>Mon</source>
+    <target>월요일</target>
+</phrase>
+<phrase>
+    <source>Tue</source>
+    <target>화요일</target>
+</phrase>
+<phrase>
+    <source>Wed</source>
+    <target>수요일</target>
+</phrase>
+<phrase>
+    <source>Thu</source>
+    <target>목요일</target>
+</phrase>
+<phrase>
+    <source>Fri</source>
+    <target>금요일</target>
+</phrase>
+<phrase>
+    <source>Sat</source>
+    <target>토요일</target>
+</phrase>
+<phrase>
+    <source>Sun</source>
+    <target>일요일</target>
+</phrase>
+<phrase>
+    <source>OpenCVR Playback</source>
+    <target>OpenCVR 재생</target>
+</phrase>
+</QPH>

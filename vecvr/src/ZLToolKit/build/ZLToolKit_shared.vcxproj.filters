@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\TcpClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\sockutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\EventPoller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\Pipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\SelectWrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\AsyncTaskThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\WorkThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\MD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\SSLBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\SqlConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{450FE855-67A7-35D3-A3D4-818AB4746171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,85 @@
+﻿  Socket.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\Socket.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\Socket.cpp(8): fatal error C1083: 포함 파일을 열 수 없습니다. 'netdb.h': No such file or directory
+  TcpClient.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\TcpClient.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\network\TcpClient.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\network\Socket.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\network\Socket.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/socket.h': No such file or directory
+  sockutil.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\sockutil.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\network\sockutil.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Network\sockutil.cpp(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/socket.h': No such file or directory
+  EventPoller.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\EventPoller.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\EventPoller.cpp(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/ioctl.h': No such file or directory
+  Pipe.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\Pipe.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\Pipe.cpp(9): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/ioctl.h': No such file or directory
+  SelectWrap.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\SelectWrap.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Poller\SelectWrap.cpp(9): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/socket.h': No such file or directory
+  Timer.cpp
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\poller\EventPoller.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\poller\EventPoller.h(11): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory
+  AsyncTaskThread.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\AsyncTaskThread.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util/logger.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util/util.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread/semaphore.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util/logger.h(213): error C3861: 'localtime_r': 식별자를 찾을 수 없습니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\AsyncTaskThread.h(12): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/time.h': No such file or directory
+  WorkThreadPool.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\WorkThreadPool.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\WorkThreadPool.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\threadgroup.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\threadgroup.h(36): error C3861: 'pthread_self': 식별자를 찾을 수 없습니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\threadgroup.h(37): error C3536: 'it': 초기화되기 전에 사용할 수 없습니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\threadgroup.h(37): error C2678: 이항 '!=': 왼쪽 피연산자로 'int' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thread(213): note: 'bool std::operator !=(std::thread::id,std::thread::id) noexcept'일 수 있습니다.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(306): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(301): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(296): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(291): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\exception(346): note: 또는       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\exception(341): note: 또는       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\exception(336): note: 또는       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\threadgroup.h(37): note: 인수 목록 '(int, std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>)'을(를) 일치시키는 동안
+          with
+          [
+              _Ty=std::pair<const std::thread::native_handle_type ,std::thread *>
+          ]
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\TaskQueue.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\spin_mutex.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\semaphore.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util/logger.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util/util.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util/logger.h(213): error C3861: 'localtime_r': 식별자를 찾을 수 없습니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(33): error C2061: 구문 오류: 식별자 'num'
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(33): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(33): error C2059: 구문 오류: '상수'
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(33): error C2061: 구문 오류: 식별자 '_priority'
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(33): error C2059: 구문 오류: '{'
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(157): warning C4183: 'thread_num': 반환 형식이 없습니다. 'int'를 반환하는 멤버 함수로 간주됩니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(160): error C2059: 구문 오류: '}'
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(160): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(34): error C3861: 'start': 식별자를 찾을 수 없습니다.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\WorkThreadPool.cpp(12): error C2039: 'Util': 'ZL::ZL'의 멤버가 아닙니다.
+  f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\WorkThreadPool.h(20): note: 'ZL::ZL' 선언을 참조하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\WorkThreadPool.cpp(20): error C2661: 'ZL::Thread::ThreadPool::ThreadPool': 오버로드된 함수에서 2개의 매개 변수를 사용하지 않습니다.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\WorkThreadPool.cpp(20): error C2672: 'std::vector<std::shared_ptr<ZL::Thread::ThreadPool>,std::allocator<_Ty>>::emplace_back': 일치하는 오버로드된 함수가 없습니다.
+          with
+          [
+              _Ty=std::shared_ptr<ZL::Thread::ThreadPool>
+          ]
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\WorkThreadPool.cpp(30): error C2039: 'wait': 'ZL::Thread::ThreadPool'의 멤버가 아닙니다.
+  f:\cctv\onvif\linkingvision\rapidvms\vecvr\src\zltoolkit\src\thread\ThreadPool.h(22): note: 'ZL::Thread::ThreadPool' 선언을 참조하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Thread\WorkThreadPool.cpp(42): fatal error C1004: 예기치 않은 파일의 끝이 나타났습니다.
+  File.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\File.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\File.cpp(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'dirent.h': No such file or directory
+  util.cpp
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\util.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src\Util\util.cpp(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory
+  코드를 생성하고 있습니다...

@@ -1,0 +1,34 @@
+Performing C++ SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
+Change Dir: F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_09ba1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 15.9.21+g9802d43bc3
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  x86용 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.16.27045
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_MYSQL_OPT_EMBEDDED_CONNECTION /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_09ba1.dir\Debug\\" /Fd"cmTC_09ba1.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\build\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\build\CMakeFiles\CMakeTmp\src.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory [F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\build\CMakeFiles\CMakeTmp\cmTC_09ba1.vcxproj]
+
+
+Source file was:
+#include <mysql.h>
+int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e26a3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 15.9.21+g9802d43bc3
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  x86용 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.16.27045
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e26a3.dir\Debug\\" /Fd"cmTC_e26a3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\build\CMakeFiles\CMakeTmp\cmTC_e26a3.vcxproj]
+
+
+

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VSCToolBar</class>
+ <widget class="QWidget" name="VSCToolBar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>869</width>
+    <height>37</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>100000</width>
+    <height>60</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>나눔스퀘어_ac</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>VSC</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>9</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="pbVidLive">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="기본적인 비디오 관련 목록을 볼 수 있습니다.">You can see the basic video related list.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/panel.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/panelhover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/panel.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbVidSearch">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="카메라 목록을 볼 수 있습니다.">You can see the list of cameras.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/searchplayback.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/searchplaybackhover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/searchplayback.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbVidConf">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="NVR(Network Video Recoder) 환경설정 항목들을 볼 수 있습니다.">You can see a list of settings related to network video recoder.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/setting.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/settinghover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/setting.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbVidLiveView">
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="카메라의 영상 화면을 볼 수 있습니다.">You can see the video screen of the camera.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/surveillance.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/surveillancehover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/surveillance.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbVidPb">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="카메라의 재생 영상 화면을 볼 수 있습니다.">You can see the playback video screen of the camera.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/videosearch3.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/videosearch3hover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/videosearch3.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbVidEventSearch">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="카메라의 이벤트(전체 화면에서의 동작 감지) 영상 화면을 볼 수 있습니다.">You can see the event video screen of the camera.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(221,251,225);
+background-image: url(:/action/resources/alarm_search.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/alarm_searchhover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/alarm_search.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbVidMotionSearch">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="카메라의 모션 감지(일부 영역에서의 동작 감지) 영상 화면을 볼 수 있습니다.">You can see the motion detection video screen of the camera.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/motion_search.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/motion_searchhover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/motion_search.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="time">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>2021-01-01 12:00:00</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="cpu">
+       <property name="minimumSize">
+        <size>
+         <width>180</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>180</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lbProcess">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="처리중...">progressing ...</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/action/resources/processing.gif);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbVidDashBoard">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="작업 스케줄 목록을 볼 수 있습니다.">You can see the list of work schedules.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/dashboard.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/dashboardhover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/dashboard.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbAlarm">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-image: url(:/action/resources/alarm.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbFullScreen">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="전체화면 또는 일반화면으로 전환할 수 있습니다.">You can switch to full screen or normal screen.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/view-fullscreen.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/view-fullscreenhover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/view-fullscreen.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbUser">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="관리자 로그아웃을 할 수 있습니다.">You can logout as an administrator.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+background-color: rgb(255, 255, 255);
+background-image: url(:/action/resources/user.png);}
+QPushButton:hover {
+background-image: url(:/action/resources/userhover.png);}
+QPushButton:pressed {
+background-image: url(:/action/resources/user.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbAbout">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>나눔스퀘어_ac</family>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string extracomment="아보카도 제품 정보를 볼 수 있습니다.">You can view avocado product information.</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="vscmainwindows.qrc">
+         <normaloff>:/logo/resources/vscsmall2.png</normaloff>:/logo/resources/vscsmall2.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="vscmainwindows.qrc"/>
+ </resources>
+ <connections/>
+</ui>

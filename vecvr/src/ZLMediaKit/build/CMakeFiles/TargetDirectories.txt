@@ -1,0 +1,10 @@
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/ZLMediaKit_shared.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/ZLMediaKit_static.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/INSTALL.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/ALL_BUILD.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/ZERO_CHECK.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/tests/CMakeFiles/test_httpClient.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/tests/CMakeFiles/test_benchmark.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/tests/CMakeFiles/test_rtmpPusher.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/tests/CMakeFiles/test_server.dir
+F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/tests/CMakeFiles/INSTALL.dir

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Codec\AACEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Codec\H264Encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Common\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Device\Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Device\PlayerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Device\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\H264Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\SPSParser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\h264_bit_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\h264_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\h264_poc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\H264\ranges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpClientImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpDownloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpRequester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\HttpSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Http\strCoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\HLSMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\MediaReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\MediaRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\Mp4Maker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\TSMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\MediaFile\crc32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player\MediaPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Player\PlayerBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpMediaSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpPlayerImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpPusher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\RtmpToRtspMediaSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\amf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtmp\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\RTP\RtpMakerAAC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\RTP\RtpMakerH264.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtpBroadCaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtpParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\Rtsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspMediaSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspPlayerImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\RtspToRtmpMediaSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Rtsp\UDPServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Shell\CMD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\src\Shell\ShellSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLMediaKit\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{899CC259-4CEB-3C51-A15E-6747E61FB637}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

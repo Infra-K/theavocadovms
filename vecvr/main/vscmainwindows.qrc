@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/logo"/>
+    <qresource prefix="/action"/>
+    <qresource prefix="/device"/>
+    <qresource prefix="/view"/>
+</RCC>

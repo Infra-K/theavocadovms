@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1BE8F77D-7132-3B8D-A72D-6EC3897967E4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\CMake\bin\cmake.exe -SF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit -BF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build --check-stamp-file F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\cmake\FindMYSQL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\CMake\bin\cmake.exe -SF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit -BF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build --check-stamp-file F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\cmake\FindMYSQL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\CMake\bin\cmake.exe -SF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit -BF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build --check-stamp-file F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\cmake\FindMYSQL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\CMake\bin\cmake.exe -SF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit -BF:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build --check-stamp-file F:/CCTV/ONVIF/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\cmake\FindMYSQL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\ZERO_CHECK.vcxproj">
+      <Project>{0FC18D10-6100-3D00-970E-519BE176C64D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\ZLToolKit_shared.vcxproj">
+      <Project>{08E86E0B-0C89-3EE1-9326-C0E9D798B468}</Project>
+      <Name>ZLToolKit_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\ZLToolKit_static.vcxproj">
+      <Project>{623734C3-DF94-3990-832A-DC276CD856F1}</Project>
+      <Name>ZLToolKit_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_asyncTaskThrad.vcxproj">
+      <Project>{BFA860D0-711F-3D33-BC9A-84AF1157C0FC}</Project>
+      <Name>test_asyncTaskThrad</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_eventPoller.vcxproj">
+      <Project>{4F6CCDD5-8438-3E1B-BF60-0C7D7A7B80E1}</Project>
+      <Name>test_eventPoller</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_logger.vcxproj">
+      <Project>{7B0A789D-3DFA-3670-A0DB-86F82C267035}</Project>
+      <Name>test_logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_noticeCenter.vcxproj">
+      <Project>{F2874790-DBFE-3728-B2AD-E00EE0152F9F}</Project>
+      <Name>test_noticeCenter</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_pipe.vcxproj">
+      <Project>{86F07F5A-AF8C-3920-B006-C5988BD48034}</Project>
+      <Name>test_pipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_resourcePool.vcxproj">
+      <Project>{38F0FEB2-A1CD-3490-973B-5B522C9B738A}</Project>
+      <Name>test_resourcePool</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_ringBuffer.vcxproj">
+      <Project>{3D334B21-8999-30EC-9EAB-881D390DBF5A}</Project>
+      <Name>test_ringBuffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_rwmutex.vcxproj">
+      <Project>{5419D466-1F99-36B0-AB4B-D513EA6A608A}</Project>
+      <Name>test_rwmutex</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_semaphore.vcxproj">
+      <Project>{CD23436D-8275-3FA0-B4BE-7F2228082FD5}</Project>
+      <Name>test_semaphore</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_spin_mutex.vcxproj">
+      <Project>{F5FE4788-69A0-3A10-9C75-9C201B4C995C}</Project>
+      <Name>test_spin_mutex</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_sql.vcxproj">
+      <Project>{B168B020-2813-3D51-95A8-20252ABDD2AB}</Project>
+      <Name>test_sql</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_ssl.vcxproj">
+      <Project>{EE687770-9DBE-3EAD-905E-56EEBC4C148B}</Project>
+      <Name>test_ssl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_tcpClient.vcxproj">
+      <Project>{97F40165-160F-3D7F-A6D7-9B2202534996}</Project>
+      <Name>test_tcpClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_tcpEchoServer.vcxproj">
+      <Project>{CDF7C5A0-FBB7-396C-8EE4-A3C08BD3815B}</Project>
+      <Name>test_tcpEchoServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_threadPool.vcxproj">
+      <Project>{4EB10F69-2027-3E76-A131-741711EC4B92}</Project>
+      <Name>test_threadPool</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\CCTV\ONVIF\linkingvision\rapidvms\vecvr\src\ZLToolKit\build\tests\test_udpSock.vcxproj">
+      <Project>{07AC2940-DA02-3ABF-B82C-4463157F7ABD}</Project>
+      <Name>test_udpSock</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
