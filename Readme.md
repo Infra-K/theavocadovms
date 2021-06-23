@@ -38,7 +38,7 @@
 *  [Manual PDF](http://infra-k.net/main/main.html)
 
 #### Release Version ####
-[https://github.com/infrak/version/tree/master/avocadovms](https://github.com/infrak/version/tree/master/avocadovms)
+[https://github.com/Infra-K/theavocadovms](https://github.com/Infra-K/theavocadovms)
 
 ### Features list ###
 	ONVIF profile S support.
