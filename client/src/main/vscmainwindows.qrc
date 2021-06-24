@@ -2,8 +2,6 @@
     <qresource prefix="/logo">
         <file>resources/splash.png</file>
         <file>resources/vscsmall.png</file>
-        <file>resources/vsclogoc.png</file>
-        <file>resources/vsclogod.png</file>
         <file>resources/vscsmall2.png</file>
         <file>resources/vscsmall32.png</file>
         <file>resources/avocadosmall32.png</file>
