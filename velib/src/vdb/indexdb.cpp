@@ -290,7 +290,6 @@ BOOL IndexDB::SelectADisk(astring &strHdd)
 	s64 freeSize = 0;
 	s64 totalSize = 0;
 	s64 calused = 0;
-	s64 callimit = 0;
 
 #ifdef AVOCADO_DEBUG
 	VDC_DEBUG("%s %s %d\n", __FUNCTION__, __FILE__, __LINE__);
@@ -344,38 +343,35 @@ BOOL IndexDB::SelectADisk(astring &strHdd)
 	case 1:
 		calused = 102400 - used;
 		if (calused <= 0)
-			calused = 102400;
-		callimit = totalSize - freeSize + calused;
+			calused = 0;
 		break;
 	case 2:
 		calused = 204800 - used;
 		if (calused <= 0)
-			calused = 204800;
-		callimit = totalSize - freeSize + calused;
+			calused = 0;
 		break;
 	case 3:
 		calused = 307200 - used;
 		if (calused <= 0)
-			calused = 307200;
-		callimit = totalSize - freeSize + calused;
+			calused = 0;
 		break;
 	case 4:
 		calused = 409600 - used;
 		if (calused <= 0)
-			calused = 409600;
-		callimit = totalSize - freeSize + calused;
+			calused = 0;
 		break;
 	default:
-		callimit = totalSize - 102400;
+		calused = freeSize - 102400;
+		if (calused <= 0)
+			calused = 0;
 		break;
 	}
-	calused = totalSize - freeSize;
 
-	VDC_DEBUG("%s %s %d, strHdd=%s, totalSize=%lld, freeSize=%lld, limit=%lld, used=%lld, nschedCnt=%d, callimit=%lld, calused=%lld\n",
-		__FUNCTION__, __FILE__, __LINE__, strHdd.c_str(), totalSize, freeSize, limit, used, nschedCnt, callimit, calused);
+	VDC_DEBUG("%s %s %d, strHdd=%s, totalSize=%lld, freeSize=%lld, limit=%lld, used=%lld, nschedCnt=%d, calused=%lld\n",
+		__FUNCTION__, __FILE__, __LINE__, strHdd.c_str(), totalSize, freeSize, limit, used, nschedCnt, calused);
 
-	if (callimit < calused)
-	{
+	if (calused <= 0)
+	{ 
 		VDC_DEBUG("ERROR: %s %s %d HDD limited\n", __FUNCTION__, __FILE__, __LINE__);
 		return false;
 	}
